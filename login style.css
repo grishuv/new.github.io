@@ -86,6 +86,10 @@ button:hover {
   padding: 10px;
   display: flex;
   justify-content: center; /* To center items horizontally */
+  position: fixed; /* Fixed position to stick to the top */
+  top: 0; /* Place at the top */
+  width: 100%; /* Take full width of the viewport */
+  z-index: 1000; /* Set a higher z-index to ensure it's on top */
 }
 
 .menu-bar ul {
@@ -107,7 +111,7 @@ button:hover {
 .content {
   max-height: calc(100vh - 100px); /* Adjust the height as needed */
   overflow-y: auto; /* Enable vertical scroll when content overflows */
-  padding: 20px; /* Add padding for better readability */
+  padding: 11.5px; /* Add padding for better readability */
 
   background-image: url('https://i.pinimg.com/564x/e7/ee/c7/e7eec7f4327816f1516bafab6241aa6c.jpg'); /* Background image */
   background-size: cover;
