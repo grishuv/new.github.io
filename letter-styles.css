@@ -1,0 +1,37 @@
+/* styles.css */
+/* ... (existing styles) */
+
+.content {
+    padding: 20px;
+    background-image: url('https://i.pinimg.com/564x/5d/ab/dc/5dabdcf65e0ed2d391818fa852eedb87.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+.message-box {
+  background-color: rgba(255, 255, 255, 0.47); /* Transparent white background */
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.594);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.play-game-button {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #074382;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.play-game-button:hover {
+  background-color: #031d39;
+}
+s
